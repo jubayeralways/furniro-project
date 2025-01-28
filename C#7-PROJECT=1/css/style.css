@@ -1,0 +1,107 @@
+/* all common css start */
+*{
+  margin: 0;
+  padding: 0;
+}
+ul ol li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+/* all common css stop */
+.header_part{
+  /* padding: 50px 0; */
+  background: whitesmoke;
+}
+.wrapper{
+  width: 1320px;
+  margin: 0 auto;
+}
+.logoMenu{
+  text-align: center;
+}
+.logoMenu ul li{
+  display: inline-block;
+}
+.logoMenu ul li a{
+  padding: 0 15px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+  transition: .4s;
+  font-family: "DM Serif Text", serif;
+
+}
+.logoMenu ul li a:hover{
+  color: red;
+}
+.banner_part{
+  padding: 200px 0;
+  background: url(../images/pexels-photo-2559941.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
+}
+.banner_overly{
+  /* background: rgba(0, 0, 0, 0.7); */
+  
+}
+.banner_text{
+  text-align: center;
+  color: aliceblue;
+}
+.main{
+  width: 100%;
+  height: 360px;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.h1{
+  font-size: 25px;
+  color: aliceblue;
+}
+.m1{
+  width: 25%;
+  height: 310px;background: url(../images/pexels-pixabay-60013.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.m2{
+  width: 25%;
+  height: 310px;background: url(../images/pexels-guillaume-falco-1112556-2229887.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+}
+.m3{
+  width: 25%;
+  height: 310px;background: url(../images/pic1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+.m4{
+  width: 25%;
+  height: 310px;background: url(../images/pic2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 75%;
+  bottom: 0;
+}
