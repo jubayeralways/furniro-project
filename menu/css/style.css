@@ -1,0 +1,27 @@
+.header{
+ background:black ;
+  margin: 0;
+  padding: 30px 0;
+}
+.container{
+  width: 1320px;
+padding: 20px;
+  margin: 0 auto;
+  
+  background: black;
+  display: inline-block;
+
+}
+.headerflex{
+  font-size: 20px;
+  justify-content: space-between;
+  color: aliceblue;
+  display: inline-block;
+}
+.headerflex menu{
+  display: inline-flex;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: ;
+}
+
